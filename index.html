@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRINIM FEM</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./page/servicios.html">SERVICIOS</a></li>
+                <li><a href="./page/acercademi.html">ACERCA DE MI</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="container">
+        <section class="inicio">
+            <img src="./imagenes/fondo.jpeg" alt="manicura">
+
+            <div class="titulo">
+                <h1 class="titulo-h1">MANICURISTA PROFESIONAL NATALIA RIERA</h1>
+                <p>Bienvenidos a mi sitio web, donde ofrezco servicios de manicura y pedicura de alta calidad.</p>
+            </div>
+
+        </section>
+
+        <section class="subinicio">
+            <h2 class="subinicio-titulo">POTENCIA TU BELLEZA</h2>
+            <table class="tabla-servicios">
+                <tr>
+                    <th>EXPERIENCIA</th>
+                    <th>COMODIDAD</th>
+                    <th>BIENESTAR</th>
+                </tr>
+                <tr>
+                    <td>Disfrutá de los pequeños lujos en PRINIM FEM. Desde que entrás, te sumergís en un ambiente
+                        sofisticado pensado para tu máximo disfrute y rejuvenecimiento.</td>
+                    <td>Nuestro equipo está acá para ofrecerte una visita relajante e inolvidable. Cada momento es una
+                        oportunidad para mimarte y recargar energías. Cuidamos cada detalle de tu experiencia, antes y
+                        después del servicio.</td>
+                    <td>Tu salud es nuestra prioridad, por eso usamos productos de primera calidad que garantizan tu
+                        bienestar. Contamos con un equipo profesional que se asegura de que ninguna clienta pase
+                        desapercibida.</td>
+                </tr>
+
+            </table>
+        </section>
+
+        <section class="contacto-ubicacion">
+            <table class="tabla-contacto-ubicacion">
+                <tr>
+                    <th>
+                        <h4 class="contacto-titulo">CONTACTO</h4>
+                        <form class="contacto-form" action="/submit" method="post">
+                            <input type="text" placeholder="Nombre y Apellido" required>
+                            <br>
+                            <input type="tel" id="telefono" nombre="telefono" placeholder="Teléfono" required>
+                            <br>
+                            <select id="genero" nombre="genero" required>
+                                <option value="vacio">Seleccione su género</option>
+                                <option value="femenino">Femenino</option>
+                                <option value="masculino">Masculino</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                            <br>
+                            <input type="email" placeholder="Correo Electrónico" required>
+                            <br>
+                            <textarea rows="4" placeholder="Escriba su mensaje" required></textarea>
+                            <br>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </th>
+                    <th>
+                    <h4 class="ubi">UBICACIÓN</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.625090770971!2d-58.83229737871641!3d-27.480928881434853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456c9de0563013%3A0xa023e20218610826!2sInstituto%20Superior%20San%20Jos%C3%A9%20I-27!5e0!3m2!1ses!2sar!4v1761440045890!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </th>
+                </tr>
+
+            </table>
+
+        </section>
+
+        <footer>
+            <br>
+            <div class="red">
+                <a href="https://www.instagram.com/prinninafemm?utm_source=qr&igsh=MXZ2d2Y0a2tnNTJrMg=="
+                    target="_blank"><img src="./imagenes/instagram.png" alt="instagram" width="30" height="30"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./imagenes/facebook.png" alt="facebook"
+                        width="30" height="30"></a>
+                <a href="https://wa.me/+543794044776" target="_blank"><img src="./imagenes/whatsapp.png" alt="whatsapp"
+                        width="30" height="30"></a>
+
+            </div>
+
+
+
+            <img src="./imagenes/logo.jpeg" alt="manicura" width="300" height="200">
+            <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+            <nav>
+                <a href="politica-privacidad.html">Política de Privacidad</a> |
+                <a href="terminos.html">Términos de Servicio</a>
+            </nav>
+        </footer>
+</body>
+
+</html>

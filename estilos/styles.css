@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(231, 228, 228, 0.493);
+}
+
+header {}
+
+.navbar {
+    position: sticky;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(15, 15, 15, 0.911);
+}
+
+.inicio {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.inicio img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(50%);
+    width: 100%;
+}
+
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+
+}
+
+.titulo-h1 {
+    font-size: 3rem;
+}
+
+.subinicio {
+    text-align: center;
+    justify-content: center;
+    height: 600px;
+    color: white;
+    font-family: playfair sans-serif;
+    background: #fffcfc;
+    background: linear-gradient(45deg, rgba(255, 252, 252, 1) 0%, rgba(115, 115, 115, 1) 50%, rgba(105, 102, 102, 1) 100%);
+
+}
+
+.subinicio-titulo {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    padding: 6rem;
+    margin: 0;
+
+}
+
+.tabla-servicios {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.tabla-servicios th {
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.tabla-servicios td {
+    text-align: justify;
+    padding: 0px 40px;
+}
+
+.contacto-ubicacion {
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    height: 400px;
+
+}
+
+.tabla-contacto-ubicacion {
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.contacto-titulo {
+
+    font-size: 2rem;
+
+
+}
+
+.contacto-form input,
+.contacto-form select,
+.contacto-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+.ubi {
+
+    font-size: 2rem;
+    padding: 10px;
+    margin: 0;
+
+}
+
+footer img {
+    width: 15px;
+    height: 80px;
+}
+
+h1 .formulario {
+    color: rgb(5, 5, 5);
+    text-align: center;
+    font-style: oblique;
+}
